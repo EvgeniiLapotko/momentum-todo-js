@@ -44,7 +44,7 @@ body{
     background-color: transparent;
     border: none;
     border-bottom: 1px solid #FFF;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     color: #ffffff;
     color: #fff;
     font-size: 30px;
@@ -169,7 +169,7 @@ body{
 @media (max-width: 1300px){
     .wrapper__content{
         max-width: 400px;
-        margin-top: 50px;
+        margin-top: 150px;
     }
     .hello {
         font-size: 50px;
@@ -180,6 +180,9 @@ body{
     .wrapper__todo{
         position: static;
         margin: 0 auto;
+    }
+    body{
+        align-items: flex-start;
     }
 }
 
